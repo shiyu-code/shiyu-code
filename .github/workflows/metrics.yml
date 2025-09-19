@@ -1,17 +1,17 @@
 name: metrics
 on:
-  workflow_dispatch:          # 手动点火必须有
+  workflow_dispatch:
   push:
-    branches: [main]          # 推送到 main 也触发一次
+    branches: [main]
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@v3.34
+      - uses: lowlighter/metrics@v3.33      # 降级，网络友好
         with:
-          token: ${{ secrets.STATS_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }} # 一定是你刚生成的 PAT
           filename: metrics.svg
           output: svg
-          base: header, activity
+          base: header, activity             # 只拉最少数据，先跑通
