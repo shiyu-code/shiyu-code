@@ -1,5 +1,7 @@
 <div id="title" align=center>
 
+![头像](image/头像.jpg)
+
 # Modern C++ Template Library 
 <p align="center">Header-only · C++20/23 · Single Include · Weekly Update</p> 
 
@@ -74,8 +76,6 @@
 [![知乎](https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-shiyu-yello)](https://www.zhihu.com/people/shi-yu-50-74)
 
 </div>
-
-![头像](image/头像.jpg)
 
 ![metrics](metrics.svg)
 
