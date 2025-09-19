@@ -79,4 +79,4 @@
 
 ![metrics](metrics.svg)
 
-[github-sub-title:img]: https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=拾予爱编程
+![metrics](https://raw.githubusercontent.com/shiyu-code/shiyu-code/main/metrics.svg)
