@@ -1,17 +1,32 @@
 name: metrics
+
 on:
-  workflow_dispatch:
+  workflow_dispatch:          # 允许手动点火
   push:
-    branches: [main]
+    branches: [ main ]        # 推送到 main 也触发
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write         # 需要写权限把 svg 推回仓库
     steps:
-      - uses: lowlighter/metrics@v3.33      # 降级，网络友好
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate metrics.svg
+        uses: lowlighter/metrics@v3.33
         with:
-          token: ${{ secrets.STATS_TOKEN }} # 一定是你刚生成的 PAT
-          filename: metrics.svg
+          token: ${{ secrets.STATS_TOKEN }}  # 一定是你生成的 PAT
+          filename: metrics.svg              # 输出文件
           output: svg
-          base: header, activity             # 只拉最少数据
+          # 只选最小集合，先保证跑通
+          base: header, activity
+          # 以下插件全部关闭，避免网络/权限问题
+          plugin_isocalendar: no
+          plugin_stars: no
+          plugin_followup: no
+          plugin_reactions: no
+          plugin_topics: no
+          plugin_repositories: no
+          plugin_activity: no
