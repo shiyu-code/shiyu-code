@@ -1,4 +1,4 @@
-<div id="title" align=center>
+<div id="title" align=left>
 
 ![Modern C++ template][github-sub-title:img]
 
