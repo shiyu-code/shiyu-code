@@ -14,4 +14,4 @@ jobs:
           token: ${{ secrets.STATS_TOKEN }} # 一定是你刚生成的 PAT
           filename: metrics.svg
           output: svg
-          base: header, activity             # 只拉最少数据，先跑通
+          base: header, activity             # 只拉最少数据
