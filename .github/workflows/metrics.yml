@@ -1,32 +1,17 @@
 name: metrics
 on:
-  schedule: [{cron: "0 0 * * *"}]   # 每天 UTC 00:00 跑一次
-  workflow_dispatch:               # 也可以手动点 Run
+  workflow_dispatch:          # 手动点火必须有
+  push:
+    branches: [main]          # 推送到 main 也触发一次
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
-      contents: write              # 允许 push 回仓库
+      contents: write
     steps:
       - uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.STATS_TOKEN }}
-
-          # 生成哪种输出
-          filename: metrics.svg     # 直接生成 svg，不是 json
+          filename: metrics.svg
           output: svg
-
-          # 选用插件（7 个核心指标）
-          base: header, activity, community, repositories, metadata
-          plugin_isocalendar: yes
-          plugin_stars: yes
-          plugin_followup: yes
-          plugin_reactions: yes
-          plugin_topics: yes
-          plugin_repositories: yes
-          plugin_activity: yes
-
-          # 配色，和你的 tokio-night 主题统一
-          config_padding: 6, 6
-          config_theme: dark
-          config_colors: '0:0f1419,1:82aaff,2:c792ea,3:addb67,4:ffcb6b,5:f07178'
+          base: header, activity
