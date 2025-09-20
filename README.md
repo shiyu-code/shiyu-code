@@ -1,7 +1,5 @@
 <div id="title" align=center>
 
-# Modern C++  
-
 <p align="center">
   <img alt="拾予爱编程" src="https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=拾予爱编程" />
 </p>
@@ -15,7 +13,6 @@
 <p align="center">
   <img width="400" alt="Top Langs" src="https://github-stats.ubrong.com/api/top-langs/?username=shiyu-code&layout=compact&theme=tokyonight">
 </p>
-
 
 <details>
   <summary>🎨 关于我</summary>
