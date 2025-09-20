@@ -7,7 +7,8 @@
 <p align="center">Header-only · C++11/17/20/23 · Single Include · Weekly Update</p> 
 
 ![Modern C++ template][github-sub-title:img]
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=shiyu-code&show_icons=true&theme=tokyonight)](https://b23.tv/iEJTnPp)
+![GitHub账户信息统计](https://github-stats.ubrong.com/api?username=shiyu-code&amp;show_icons=true&amp;theme=tokyonight)
+
 
 <details>
   <summary>🎨 关于我</summary>
@@ -80,3 +81,4 @@
 ![metrics](metrics.svg)
 
 [github-sub-title:img]: https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=拾予爱编程
+
