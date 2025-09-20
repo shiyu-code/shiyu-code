@@ -1,8 +1,10 @@
 <div id="title" align=center>
 
-![头像](image/头像.jpg)
+# Modern C++  
 
-# Modern C++ Template Library 
+<p align="center">
+  <img alt="拾予爱编程" src="https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=拾予爱编程" />
+</p>
 
 <p align="center">Header-only · C++11/17/20/23 · Single Include · Weekly Update</p> 
 
@@ -83,5 +85,6 @@
 
 </div>
 
-[github-sub-title:img]: https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=拾予爱编程
+![头像](image/头像.jpg)
+
 
