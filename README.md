@@ -1,12 +1,12 @@
 <div id="title" align=center>
 
-<p align="center">Header-only · C++11/17/20/23 · Single Include · Weekly Update</p> 
-
 ![头像](image/头像.jpg)
 
 <p align="center">
   <img alt="拾予爱编程" src="https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=拾予爱编程" />
 </p>
+
+<p align="center">Header-only · C++11/17/20/23 · Single Include · Weekly Update</p> 
 
 <p align="center">
   <img width="400" alt="GitHub Stats" src="https://github-stats.ubrong.com/api?username=shiyu-code&show_icons=true&theme=tokyonight">
