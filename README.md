@@ -6,9 +6,12 @@
 
 <p align="center">Header-only · C++11/17/20/23 · Single Include · Weekly Update</p> 
 
-![Modern C++ template][github-sub-title:img]
-![GitHub账户信息统计](https://github-stats.ubrong.com/api?username=shiyu-code&amp;show_icons=true&amp;theme=tokyonight)
+<p align="center">
+  <img width="400" alt="GitHub Stats" src="https://github-stats.ubrong.com/api?username=shiyu-code&show_icons=true&theme=tokyonight">
+  <br/>
 
+  <img width="400" alt="Top Langs" src="https://github-stats.ubrong.com/api/top-langs/?username=shiyu-code&layout=compact&theme=tokyonight">
+</p>
 
 <details>
   <summary>🎨 关于我</summary>
@@ -78,7 +81,7 @@
 
 </div>
 
-![metrics](metrics.svg)
+![metrics](image/s.svg)
 
 [github-sub-title:img]: https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=拾予爱编程
 
