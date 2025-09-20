@@ -6,15 +6,15 @@
 
 <p align="center">Header-only · C++11/17/20/23 · Single Include · Weekly Update</p> 
 
-<p align="center">
+<p align="left">
   <img width="400" alt="GitHub Stats" src="https://github-stats.ubrong.com/api?username=shiyu-code&show_icons=true&theme=tokyonight">
   <br/>
 
+<p align="left">
   <img width="400" alt="Top Langs" src="https://github-stats.ubrong.com/api/top-langs/?username=shiyu-code&layout=compact&theme=tokyonight">
 </p>
 
 ![tech-stack](image/tech-stack.svg)
-
 
 <details>
   <summary>🎨 关于我</summary>
