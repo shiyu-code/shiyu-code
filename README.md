@@ -13,6 +13,9 @@
   <img width="400" alt="Top Langs" src="https://github-stats.ubrong.com/api/top-langs/?username=shiyu-code&layout=compact&theme=tokyonight">
 </p>
 
+![tech-stack](image/tech-stack.svg)
+
+
 <details>
   <summary>🎨 关于我</summary>
 
@@ -80,8 +83,6 @@
 [![知乎](https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-shiyu-yello)](https://www.zhihu.com/people/shi-yu-50-74)
 
 </div>
-
-![metrics](image/s.svg)
 
 [github-sub-title:img]: https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=拾予爱编程
 

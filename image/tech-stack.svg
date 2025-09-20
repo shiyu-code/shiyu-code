@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <style>
+    .title{font:24px sans-serif;fill:#111}
+    .section{font:18px sans-serif;fill:#333}
+    .item{font:16px sans-serif;fill:#fff}
+    .bar{height:20px;rx:4;ry:4}
+  </style>
+
+  <text x="20" y="30" class="title">🛠️ Tech Stack &amp; Skills</text>
+
+  <text x="20" y="70" class="section">💻 Programming Languages</text>
+  <rect x="20" y="80" width="120" height="20" fill="#00599c" class="bar"/>
+  <text x="25" y="95" class="item">C/C++</text>
+  <rect x="150" y="80" width="100" height="20" fill="#3776ab" class="bar"/>
+  <text x="155" y="95" class="item">Python</text>
+
+  <text x="20" y="130" class="section">🔧 Build Tools</text>
+  <rect x="20" y="140" width="100" height="20" fill="#064f8c" class="bar"/>
+  <text x="25" y="155" class="item">CMake</text>
+
+  <text x="20" y="190" class="section">📚 Libraries &amp; Frameworks</text>
+  <rect x="20" y="200" width="140" height="20" fill="#ff9e3d" class="bar"/>
+  <text x="25" y="215" class="item">Boost Libraries</text>
+  <rect x="170" y="200" width="160" height="20" fill="#41cd52" class="bar"/>
+  <text x="175" y="215" class="item">Qt Framework</text>
+
+  <text x="20" y="250" class="section">🗄️ Databases</text>
+  <rect x="20" y="260" width="90" height="20" fill="#4479a1" class="bar"/>
+  <text x="25" y="275" class="item">MySQL</text>
+  <rect x="120" y="260" width="90" height="20" fill="#003b57" class="bar"/>
+  <text x="125" y="275" class="item">SQLite</text>
+
+  <text x="20" y="310" class="section">📡 Data Transfer</text>
+  <rect x="20" y="320" width="70" height="20" fill="#1f77b4" class="bar"/>
+  <text x="25" y="335" class="item">JSON</text>
+  <rect x="100" y="320" width="180" height="20" fill="#9467bd" class="bar"/>
+  <text x="105" y="335" class="item">Protocol Buffers</text>
+
+  <text x="20" y="370" class="section">🐧 Operating Systems &amp; Scripting</text>
+  <rect x="20" y="380" width="70" height="20" fill="#333" class="bar"/>
+  <text x="25" y="395" class="item">Linux</text>
+  <rect x="100" y="380" width="140" height="20" fill="#555" class="bar"/>
+  <text x="105" y="395" class="item">Shell Scripting</text>
+
+  <text x="20" y="430" class="section">🌐 Network Programming</text>
+  <rect x="20" y="440" width="110" height="20" fill="#17becf" class="bar"/>
+  <text x="25" y="455" class="item">TCP Protocol</text>
+  <rect x="140" y="440" width="110" height="20" fill="#1f77b4" class="bar"/>
+  <text x="145" y="455" class="item">UDP Protocol</text>
+  <rect x="260" y="440" width="150" height="20" fill="#ff7f0e" class="bar"/>
+  <text x="265" y="455" class="item">Socket Programming</text>
+
+  <text x="20" y="490" class="section">📖 Standard Libraries</text>
+  <rect x="20" y="500" width="250" height="20" fill="#0a7bdc" class="bar"/>
+  <text x="25" y="515" class="item">STL (Standard Template Library)</text>
+
+  <text x="20" y="540" class="section">⚡ Concurrent Programming</text>
+  <rect x="20" y="550" width="140" height="20" fill="#d62728" class="bar"/>
+  <text x="25" y="565" class="item">Multithreading</text>
+</svg>
