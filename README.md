@@ -6,6 +6,9 @@
 
 <p align="center">Header-only · C++11/17/20/23 · Single Include · Weekly Update</p> 
 
+![头像](image/头像.jpg)
+
+
 <p align="center">
   <img width="400" alt="GitHub Stats" src="https://github-stats.ubrong.com/api?username=shiyu-code&show_icons=true&theme=tokyonight">
   <br/>
@@ -81,7 +84,4 @@
 [![知乎](https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-shiyu-yello)](https://www.zhihu.com/people/shi-yu-50-74)
 
 </div>
-
-![头像](image/头像.jpg)
-
 
